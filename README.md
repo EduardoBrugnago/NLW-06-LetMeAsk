@@ -13,7 +13,7 @@
 </p>
 
 ## Sobre 📖
-Este projeto foi elaborado em React com a utilização do banco de dados realtime Firebase(google) e hospedado também no firebase. A Aplicação chama-se Letmeask, uma plataforma onde um host cria uma sala e as pessoas entram para fazer perguntas. Pelo lado do administrador da sala é possivel marca-las como lida, respondida e por fim apaga-la. Pelo lado do usuário de sala além das perguntas também é possível dar like.
+Este projeto foi elaborado em React com a utilização do banco de dados realtime Firebase(google) e hospedado também no firebase. A Aplicação chama-se Letmeask, uma plataforma onde um host cria uma sala e as pessoas entram para fazer perguntas. Pelo lado do administrador da sala é possivel fechar a sala, marcar as perguntas para responder, respondela e por fim apaga-la. Pelo lado do usuário é possivel logar e deslogar a sua conta, fazer perguntas e curtir outras perguntas.
 
 
 ## 🧪 Tecnologias
