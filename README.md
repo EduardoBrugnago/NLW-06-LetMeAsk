@@ -8,8 +8,6 @@
 </h1>
 
 <p float="center">
-  <img src="GitRead/img_3.png" width="400" />
-  <img src="GitRead/img_2.png" width="400" /> 
 </p>
 
 ## Sobre 📖
