@@ -8,8 +8,8 @@
 </h1>
 
 <p float="center">
-  <img alt="Mobile" src="GitRead/img_2.png" />
-  <img alt="Mobile" src="GitRead/img_3.png" />
+  <img alt="Mobile" width="400" src="GitRead/img_2.png" />
+  <img alt="Mobile" width="400" src="GitRead/img_3.png" />
 </p>
 
 ## Sobre 📖
