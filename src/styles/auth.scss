@@ -1,0 +1,218 @@
+#page-auth {
+    display: flex;
+    align-items: stretch;
+    height: 100vh;
+    
+    aside {
+        flex: 7;
+
+        background: #834afd;
+        color: #fff;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+        padding: 7.5em 5em;
+
+        img {
+            width: 20em;
+        }
+
+        strong {
+            font: 700 1.625em 'Poppins', sans-serif;
+            line-height: 2.625em;
+            margin-top: 16px;
+        }
+
+        p {
+            font-size: 1.5em;
+            line-height: 2em;
+            margin-top: 16px;
+            color: #f8f8f8;
+        }
+    }
+
+    main {
+        flex: 8;
+
+        padding: 0 2em;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .main-content {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        max-width: 20em;
+        align-items: stretch;
+        text-align: center;
+
+        > img {
+            align-self: center;
+            cursor: pointer;
+        }
+
+        h2 {
+            font-size: 1.5em;
+            margin: 4em 0 1.5em;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+
+            input {
+                max-height: 3.125em;
+                border-radius: 8px;
+                padding: .5em 1em;
+                background: #FFF;
+                border: 1px solid #a8a8b3;
+            }
+
+            button {
+                margin-top: 1em;
+                padding: 0.75em;
+                max-height: 50em;
+            }
+        }
+
+        div {           
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 16px;
+            gap: 12px;
+
+            >button.button{
+                width: 100%;
+            }
+
+            >button.signOut{
+                width: 2.375em;
+            }
+        }
+
+        .singOut-button
+        {
+            max-width: 3.75em;
+            height: 3.125em;
+            border-radius: 8px;
+            font-weight: 500;
+            background: #ea4335;
+            color: #FFF;
+            padding: 0 1em;
+            margin-right: 16px;
+        
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            cursor: pointer;
+            border: 0;
+
+            transition: filter 0.2s;
+
+            &:hover {
+                filter: brightness(0.9);
+            }
+
+            >img {
+                max-width: 1.375em;
+                width: 100%;
+                fill: orange;
+            }
+        }
+
+        p {
+            font-size: 0.875em;
+            color: #737380;
+            margin-top: 16px;
+
+            a {
+                color: #e559f9;
+            }
+        }
+    }
+
+    .create-room {
+        margin-top: 64px;
+        padding: 0.75em;
+        max-height: 50em;
+        border-radius: 8px;
+        font-weight: 500;
+        background: #ea4335;
+        color: #fff;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        cursor: pointer;
+        border: 0;
+
+        transition: filter 0.2s;
+
+        img {
+          margin-right: .5em;  
+        }
+
+        &:hover {
+            filter: brightness(0.9);
+        }
+    }
+
+    .separator {
+        font-size: 0.875em;
+        color: #a8a8b3;
+        
+        margin: 32px 0;
+        display: flex;
+        align-items: center;
+
+        &::before {
+            content: '';
+            flex: 1;
+            height: 1px;
+            background: #a8a8b3;
+            margin-right: 16px;
+        }
+
+        &::after {
+            content: '';
+            flex: 1;
+            height: 1px;
+            background: #a8a8b3;
+            margin-left: 16px;
+        }
+    }
+}
+
+@media (max-width: 900px) {
+    #page-auth { 
+        flex-direction: column;
+    }
+
+    .main-content { 
+        margin: 64px 0;
+    }
+}
+
+@media (min-height: 1980px) and (max-width: 2000px){ 
+    #page-auth { 
+        flex-direction: column;
+
+        aside {
+            align-items: center;
+        }
+
+        .main-content { 
+            margin: 64px 0;
+        }
+    }
+}

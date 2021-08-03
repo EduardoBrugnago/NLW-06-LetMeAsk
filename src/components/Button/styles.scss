@@ -1,0 +1,41 @@
+.button {
+  max-height: 4em;
+  height: 3.125em;
+  border-radius: 8px;
+  font-weight: 500;
+  background: #835afd;
+  color: #FFF;
+  padding: 0 2em;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+  border: 0;
+
+  transition: filter 0.2s;
+
+  &.outlined {
+    background: #fff;
+    border: 1px solid #835afd;
+    color: #835afd;
+  }
+
+  &.signOut {
+        background: #ea4335;
+
+        >img {  
+            width: 1em;
+        }
+    }
+
+  &:not(:disabled):hover {
+    filter: brightness(0.9);
+  }
+
+  &:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+}
