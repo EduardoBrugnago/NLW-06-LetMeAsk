@@ -40,7 +40,7 @@ $ cd letmeask
 Para concluir:
 ```bash
 # Instalar as dependencias.
-$ yarn
+$ yarn install
 
 # Iniciar o projeto.
 $ yarn start
