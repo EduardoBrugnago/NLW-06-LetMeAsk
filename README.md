@@ -7,9 +7,10 @@
     <img alt="Letmeask" title="Letmeask" src="GitRead/Img_1.png" />
 </h1>
 
+### Mobile:
 <p float="center">
-  <img alt="Mobile" width="400" src="GitRead/img_3.png" />
-  <img alt="Mobile" width="400" src="GitRead/img_2.png" />
+  <img alt="Mobile" width="350" src="GitRead/img_3.png" />
+  <img alt="Mobile" width="350" src="GitRead/img_2.png" />
 </p>
 
 ## Sobre 📖
